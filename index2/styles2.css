@@ -1,0 +1,179 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 1.5rem;
+}
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    background-color: #000000;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+h2 {
+    color: #000000;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.line {
+    width: 40px;
+    height: 2px;
+    background-color: #f0506e;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.expertise {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.expertise-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media (max-width: 1024px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem;
+    }
+
+    .section {
+        width: 70%;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .section {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 0.5rem;
+    }
+
+    .nav-links {
+        align-items: center;
+    }
+
+    .section {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #eee;
+}
+
+.skill-row {
+    margin-bottom: 10px;
+    color: #eee;
+}
+
+.skill-name {
+    font-weight: bold;
+    color: #eee;
+}
+
+.skill-bar {
+    height: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    color: #eee;
+}
+
+.skill-bar-fill {
+    height: 100%;
+    background-color: #000000;
+    color: #eee;
+}
+
+  
+
+  
